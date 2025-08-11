@@ -12,7 +12,7 @@ const ReviewCard = ({ imgURL, customerName, rating, feedback }) => {
       <div className='mt-3 flex justify-center items-center gap-2.5'>
         <img
           src={star}
-          width={24}
+          width={20}
           height={24}
           alt='rating star'
           className='object-contain m-0'
